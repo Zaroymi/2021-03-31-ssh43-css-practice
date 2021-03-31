@@ -1,0 +1,73 @@
+body {
+    font-family: Montserrat;
+    margin: 0;
+}
+
+.start-section {
+    padding: 5px 50px 10px 50px;
+    background: linear-gradient(180deg, rgba(58, 173, 236, 0.7) 0%, rgba(16, 0, 121, 0.7) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.top-menu-wrapper {
+    text-align: end;
+    width: 100%;
+}
+
+.top-menu-wrapper > span {
+    color: white;
+    margin-right: 20px;
+}
+
+.top-menu {
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background: #f2f2f2;
+    align-items: center;
+    padding: 5px 20px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.links {
+    display: flex;
+}
+
+.links a {
+    padding: 7px;
+}
+
+.links a:last-child {
+    color: red;
+}
+
+.logo {
+    width: 42px;
+    height: 42px;
+}
+
+.project-description {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    text-align: center;
+    color: white;
+    max-width: 770px;
+}
+
+.actions {
+    margin-top: 30px;
+}
+
+.actions button {
+    padding: 10px;
+    border-radius: 10px;
+    width: 130px;
+    height: 50px;
+}
